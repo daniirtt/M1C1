@@ -1,0 +1,117 @@
+/* Estilos Grid 1 */
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px; 
+    background-color: rgb(222, 216, 216);
+}
+
+.blue-text {
+    color: blue;
+}
+
+/* Estilos Grid 2 */
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+
+
+.gridItem1 {
+    background-color: red;
+}
+
+.gridItem2 {
+    background-color: blue;
+}
+
+.gridItem3 {
+    background-color: yellow;
+}
+}
+
+
+/* Estilos Grid 3 */
+.gridThree {
+    display: grid;
+    grid-template-rows: 1fr 3fr; 
+    width: 500px;
+    height: 300px;
+
+.gridItem1 {
+    background-color: rgb(159, 157, 157);
+    text-align:left;
+}
+
+.gridItem2 img {
+    width: 500px;
+    height: 225px;
+    object-fit: cover;
+}
+}
+
+/* Estilos Grid 4 */
+.gridFour {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: green;
+    gap: 10px;
+
+
+.gridItem1 {
+    background-color: green;
+    text-align:left;
+}
+
+#nestedGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
+}
+
+/* Estilos Grid 5 */
+.gridFive {
+    display: grid;
+    grid-template-rows: 1fr 1fr; 
+    width: 500px;
+    gap: 10px;
+    background-color: rgb(206, 233, 242);
+
+
+.gridItem1 {
+    background-color: rgb(206, 233, 242);
+    text-align: left;
+}
+
+.gridItem2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 0px;
+}
+
+.gridItem2 img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+}
+
+/* Estilos Grid 6 */
+.gridSix {
+    display: grid;
+    grid-template-columns: 1fr 3fr; 
+    width: 500px;
+    background-color: lightgray;
+    gap: 10px; 
+    align-items: center; 
+}
+
+.gridItem1 {
+    object-position: left;
+}
+
+.google-font {
+    font-family: 'Caveat', cursive;
+    font-size: 15px;
+}
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Inter:wght@500&display=swap" rel="stylesheet">
+    <title>M1C1 CSS Grid Assignment - Grid 1</title>
+</head>
+<body>
+    <!-- Grid 1 -->
+    <div class="gridOne">
+        <p>Hello World</p>
+        <p class="blue-text">My Fantastic Content</p>
+    </div>
+
+    <!-- Grid 2 -->
+    <div class="gridTwo">
+        <div class="gridItem1">
+            <p>whatever</p>
+        </div>
+        <div class="gridItem2">
+            <p>text</p>
+        </div>
+        <div class="gridItem3">
+            <p>I want</p>
+        </div>
+    </div>
+
+    <!-- Grid 3 -->
+    <div class="gridThree">
+        <div class="gridItem1">
+            <p>The text I chose is Awesome</p>
+        </div>
+        <div class="gridItem2">
+            <img src="https://unsplash.com/photos/hSPVuakrJqs" alt="Ice">
+        </div>
+    </div>
+
+    <!-- Grid 4 -->
+    <div class="gridFour">
+        <div class="gridItem1">
+            <p>My Even More Awsome Text</p>
+        </div>
+        <div id="nestedGrid" class="gridItem2">
+            <p>My left text</p>
+            <p>My right text</p>
+        </div>
+    </div>
+
+    <!-- Grid 5 -->
+    <div class="gridFive">
+        <div class="gridItem1">
+            <p>My Even More Awesome Text</p>
+        </div>
+        <div class="gridItem2">
+            <img src="https://unsplash.com/photos/qC117ahi-mE" alt="Lantern">
+            <img src="https://unsplash.com/photos/_TuI8tZHlk4" alt="Street">
+        </div>
+    </div>
+
+    <!-- Grid 6 -->
+    <div class="gridSix">
+        <div class="gridItem1">
+            <i class="fa-solid fa-earth-africa"></i>
+        </div>
+        <div class="gridItem2">
+            <p class="google-font">MY AWESOME GOOGLE FONT IS APPLIED HERE</p>
+        </div>
+    </div>
+
+</body>
+</html>
